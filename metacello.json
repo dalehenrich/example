@@ -9,6 +9,14 @@
 				"requires" : ["GoferBar"]}},
 			{"group" : {
 				"name" : "default",
-				"includes" : ["GoferBar", "GoferFoo"]}}]}
+				"includes" : ["GoferBar", "GoferFoo"]}}]},
+		{"pharo" : 
+			[
+			{"package" : {
+				"name" : "GoferPharo",
+				"requires" : ["GoferBar"]}},
+			{"group" : {
+				"name" : "default",
+				"includes" : ["GoferPharo"]}}]}
 	]}
 ]

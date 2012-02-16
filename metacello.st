@@ -10,5 +10,10 @@
           do: [
               spec package: 'GoferBar'.
               spec package: 'GoferFoo' with: [ spec requires: 'GoferBar' ].
-              spec group: 'default' with: #('GoferBar' 'GoferFoo') ]. ].
+              spec group: 'default' with: #('GoferBar' 'GoferFoo') ].
+      spec
+          for: #'pharo'
+          do: [
+              spec package: 'GoferPharo' with: [ spec requires: 'GoferBar' ].
+              spec group: 'default' with: #('GoferPharo') ]. ].
 
