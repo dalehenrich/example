@@ -9,6 +9,14 @@
 				"requires" : ["GoferBar"]}},
 			{"group" : {
 				"name" : "default",
-				"includes" : ["GoferBar", "GoferFoo"]}}]}
+				"includes" : ["GoferBar", "GoferFoo"]}}]},
+		{"gemstone" : 
+			[
+			{"package" : {
+				"name" : "GoferGemStone",
+				"requires" : ["GoferBar"]}},
+			{"group" : {
+				"name" : "default",
+				"includes" : ["GoferGemStone"]}}]}
 	]}
 ]
