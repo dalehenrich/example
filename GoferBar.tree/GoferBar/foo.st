@@ -1,3 +1,5 @@
 
 !GoferBar methodsFor: 'as yet unclassified'!
-foo! !
+foo
+"gemstone-specific change"
+! !
