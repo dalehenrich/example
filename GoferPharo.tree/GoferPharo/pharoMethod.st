@@ -1,0 +1,4 @@
+
+!GoferPharo methodsFor: 'accessing'!
+pharoMethod
+    ! !
