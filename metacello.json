@@ -1,0 +1,14 @@
+[
+	{"baseline" : [
+		{"common" : 
+			[
+			{"package" : {
+				"name" : "GoferBar"}},
+			{"package" : {
+				"name" : "GoferFoo",
+				"requires" : ["GoferBar"]}},
+			{"group" : {
+				"name" : "default",
+				"includes" : ["GoferBar", "GoferFoo"]}}]}
+	]}
+]
