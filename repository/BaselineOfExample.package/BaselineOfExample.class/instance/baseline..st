@@ -7,15 +7,16 @@ baseline: spec
       spec
         baseline: 'External'
           with: [ spec repository: 'http://ss3.gemstone.com/ss/external' ];
-        import: 'External';
+        import: 'External' provides: #('External Core');
         baseline: 'Sample'
           with: [ spec repository: 'github://dalehenrich/sample:otto/repository' ];
-        import: 'Sample';
+        import: 'Sample' provides: #('Sample Core' 'Sample Tests');
         yourself.
       spec
         package: 'Example-Core'
           with: [ spec requires: #('Sample Core' 'External Core') ];
-        package: 'Example-Tests' with: [ spec requires: 'Example-Core' ];
+        package: 'Example-Tests'
+          with: [ spec requires: #('Example-Core' 'Sample Tests') ];
         yourself.
       spec
         group: 'default' with: #('Core');
