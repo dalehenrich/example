@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfExample",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "dkh 11/17/2013 15:35",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfExample",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

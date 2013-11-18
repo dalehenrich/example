@@ -1,0 +1,14 @@
+{
+	"category" : "Example-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExampleCore",
+	"pools" : [
+		 ],
+	"super" : "SampleCore",
+	"type" : "normal" }

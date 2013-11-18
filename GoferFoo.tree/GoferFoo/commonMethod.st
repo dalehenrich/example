@@ -1,4 +1,0 @@
-
-!GoferFoo methodsFor: 'accessing'!
-commonMethod
-    ! !

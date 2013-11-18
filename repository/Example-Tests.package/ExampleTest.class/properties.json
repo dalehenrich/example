@@ -1,0 +1,14 @@
+{
+	"category" : "Example-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ExampleTest",
+	"pools" : [
+		 ],
+	"super" : "SampleTest",
+	"type" : "normal" }

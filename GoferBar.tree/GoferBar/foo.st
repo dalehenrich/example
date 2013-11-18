@@ -1,3 +1,0 @@
-
-!GoferBar methodsFor: 'accessing'!
-foo! !
