@@ -5,21 +5,13 @@ baseline: spec
     for: #'common'
     do: [ 
       spec
-        configuration: 'External'
-          with: [ 
-              spec
-                version: #'otto';
-                loads: 'External Core';
-                repository: 'http://ss3.gemstone.com/ss/external' ];
-        baseline: 'Sample'
-          with: [ spec repository: 'github://dalehenrich/sample:otto/repository' ];
-        import: 'Sample' provides: #('Sample Core' 'Sample Tests');
+        baseline: 'Alternate'
+          with: [ spec repository: 'github://dalehenrich/alternate:otto/repository' ];
+        import: 'Alternate' provides: #('Alternate Core' 'Alternate Tests');
         yourself.
       spec
-        package: 'Example-Core'
-          with: [ spec requires: #('Sample Core' 'External') ];
-        package: 'Example-Tests'
-          with: [ spec requires: #('Example-Core' 'Sample Tests') ];
+        package: 'Example-Core' with: [ spec requires: #('Alternate Core') ];
+        package: 'Example-Tests' with: [ spec requires: #('Alternate Tests') ];
         yourself.
       spec
         group: 'default' with: #('Core');
