@@ -10,5 +10,5 @@
 	"name" : "ExampleCore",
 	"pools" : [
 		 ],
-	"super" : "SampleCore",
+	"super" : "AlternateCore",
 	"type" : "normal" }

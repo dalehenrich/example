@@ -11,7 +11,8 @@ baseline: spec
         yourself.
       spec
         package: 'Example-Core' with: [ spec requires: #('Alternate Core') ];
-        package: 'Example-Tests' with: [ spec requires: #('Alternate Tests') ];
+        package: 'Example-Tests'
+          with: [ spec requires: #('Example-Core' 'Alternate Tests') ];
         yourself.
       spec
         group: 'default' with: #('Core');

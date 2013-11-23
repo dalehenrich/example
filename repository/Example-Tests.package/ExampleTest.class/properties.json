@@ -10,5 +10,5 @@
 	"name" : "ExampleTest",
 	"pools" : [
 		 ],
-	"super" : "SampleTest",
+	"super" : "AlternateTest",
 	"type" : "normal" }
